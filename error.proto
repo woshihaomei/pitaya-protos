@@ -13,7 +13,4 @@ message Error {
 //给客户端显示用的 因为框架层的proto客户端是无法解析的
 message ClientError {
   int32 ErrorCode = 1;
-  string code = 2;
-  string msg = 3;
-  map<string, string> metadata = 4;
 }
